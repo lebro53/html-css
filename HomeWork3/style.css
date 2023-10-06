@@ -26,6 +26,7 @@
 .navigation__menu {
 	display: flex;
 	gap: 35px;
+	white-space: nowrap;
 }
 
 .navigation__menu a {
@@ -52,14 +53,14 @@
 }
 
 .main__content-left h1 {
-	width: 522px;
+	max-width: 522px;
 	margin-bottom: 17px;
 	color: #000;
 	font-family: Gilroy-Bold;
 	font-size: 60px;
 }
 .main__content-left p {
-	width: 466px;
+	max-width: 466px;
 	margin-bottom: 37px;
 	color: #888;
 	font-family: Gilroy-Medium;
