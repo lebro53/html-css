@@ -28,7 +28,8 @@ img {
 }
 .navigation__left button,
 .navigation__right button {
-	background-color: #222222;
+	background: none;
+	border: none;
 }
 .banner {
 	max-width: 1600px;
@@ -39,7 +40,7 @@ img {
 	gap: 64px;
 }
 .banner__content img {
-	width: 50%;
+	max-width: 50%;
 }
 
 .banner__content-paragraph {
@@ -70,23 +71,16 @@ img {
 
 .offer__content-img1 {
 	background-image: url(./img/women1.png);
-	width: 360px;
-	height: 260px;
 }
 .offer__content-img2 {
 	background-image: url(./img/man2.png);
-	width: 360px;
-	height: 260px;
 }
 .offer__content-img3 {
 	background-image: url(./img/children3.png);
-	width: 360px;
-	height: 260px;
 }
 .offer__content-img4 {
 	background-image: url(./img/acces4.png);
 	width: 1140px;
-	height: 180px;
 }
 .img-opacity {
 	background-color: rgba(33, 22, 22, 0.7);
