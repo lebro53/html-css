@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			input {
+				position: absolute;
+				left: -999999999999px;
+				visibility: hidden;
+			}
+			input:checked ~ h1 {
+				color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="">
+			<input id="check" type="checkbox" />
+			<label for="check"> </label>
+			<h1>Title</h1>
+		</form>
+	</body>
+</html>
